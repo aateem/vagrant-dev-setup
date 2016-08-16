@@ -1,0 +1,5 @@
+aptitude
+git
+vim
+stow
+docker.io
