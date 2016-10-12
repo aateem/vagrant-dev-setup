@@ -14,9 +14,14 @@ Vagrant.configure(2) do |config|
 
   # NOTE: this kind of provision still runs the process in privileged mode
   # config.vm.provision "shell", path: "provision.sh", privileged: false
-  config.vm.provision :shell do |sh|
+  config.vm.provision "main", type: "shell" do |sh|
     sh.privileged = false
     sh.path = "provision.sh"
+  end
+
+  config.vm.provision "golang", type: "shell" do |sh|
+    sh.privileged = false
+    sh.path = "go-provision.sh"
   end
 
 end
