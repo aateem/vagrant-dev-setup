@@ -3,3 +3,5 @@ git
 vim
 stow
 docker.io
+gcc
+make

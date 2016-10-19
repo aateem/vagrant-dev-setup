@@ -23,3 +23,5 @@ stow vim
 
 popd
 vim +PluginInstall +qall
+
+mkdir code
