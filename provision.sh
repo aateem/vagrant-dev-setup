@@ -20,6 +20,7 @@ fi
 pushd dotfiles
 stow bash
 stow vim
+stow git
 
 popd
 vim +PluginInstall +qall
