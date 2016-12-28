@@ -2,7 +2,7 @@
 
 set -eux
 
-default_dw_link="https://storage.googleapis.com/golang/go1.7.1.linux-amd64.tar.gz"
+default_dw_link="https://storage.googleapis.com/golang/go1.7.4.linux-amd64.tar.gz"
 
 latest_go_version=${LATEST_GO_DW_LINK:-${default_dw_link}}
 

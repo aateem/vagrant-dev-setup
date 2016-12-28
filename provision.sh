@@ -23,5 +23,6 @@ stow vim
 
 popd
 vim +PluginInstall +qall
+vim +GoInstallBinaries +qall
 
 mkdir code
